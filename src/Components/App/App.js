@@ -1,23 +1,20 @@
+import React from 'react';
 import './App.css';
+import Header from '../Header/Header';
+import Home from '../Home/Home';
+import Portfolio from '../Portfolio/Portfolio';
+import Contact from '../Contact/Contact';
+import { Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <Route exact path='/' component={ Home }/>
+      <Route path='/portfolio' component={ Portfolio }/>
+      <Route path='/contact' component={ Contact }/>
+    </>
+  )
 }
 
 export default App;
