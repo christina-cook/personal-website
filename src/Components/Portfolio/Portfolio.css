@@ -1,0 +1,22 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.portfolio-title {
+  font-family: 'Playfair Display', serif;
+  color: #727272;
+  font-size: 4rem;
+  user-select: none;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-gap: 3rem;
+  padding: 1rem;
+  width: 100%;
+  justify-content: center;
+}
