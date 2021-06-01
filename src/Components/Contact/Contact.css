@@ -1,0 +1,38 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;
+  color: #727272;
+  font-size: 4rem;
+  user-select: none;
+  margin-bottom: 0.5rem;
+}
+
+.linkedin,
+.email {
+  text-decoration: none;
+  color: #727272;
+  border-bottom: 2px solid #F1F1F1;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 0.75rem;
+}
+
+.icon {
+  height: 50px;
+  padding: 1rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
