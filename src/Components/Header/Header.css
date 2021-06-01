@@ -1,0 +1,36 @@
+header {
+  background-color: #727272;
+  min-height: 3rem;
+  color: #F1F1F1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 4rem;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin: 0;
+  padding-right: 0.5rem;
+}
+
+.list-item {
+  margin: 1rem;
+  font-weight: 800;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #F1F1F1;
+}
