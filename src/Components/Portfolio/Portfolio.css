@@ -20,3 +20,37 @@
   width: 100%;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 1050px) {
+  .project-grid {
+    grid-template-columns: repeat(1, 800px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: repeat(1, 600px);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio-title {
+    font-size: 2rem;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(1, 325px);
+    grid-gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .project-grid {
+    grid-template-columns: repeat(1, 260px);
+    padding: 0;
+  }
+}

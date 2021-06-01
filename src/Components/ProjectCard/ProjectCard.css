@@ -44,3 +44,56 @@
   cursor: pointer;
   color: #ACCBC5;
 }
+
+@media screen and (max-width: 1050px) {
+  .project-title {
+    font-size: 1.75rem;
+  }
+
+  .project-image {
+    max-width: 765px;
+  }
+
+  .tech,
+  .project-description,
+  .stack {
+    font-size: 1.25rem;
+  }
+
+  .card-button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-image {
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project-title {
+    font-size: 1.25rem;
+  }
+
+  .project-image {
+    max-width: 290px;
+  }
+
+  .tech,
+  .project-description,
+  .stack,
+  .card-button {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .project-image {
+    max-width: 225px;
+  }
+
+  .card-button {
+    font-size: 0.5rem;
+  }
+}
