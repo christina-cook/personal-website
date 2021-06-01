@@ -6,6 +6,11 @@ header {
   justify-content: space-between;
 }
 
+.logo {
+  max-height: 4rem;
+  padding: 1rem;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
