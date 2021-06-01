@@ -1,6 +1,6 @@
 import './Header.css';
 import logo from '../../assets/logo.png';
-
+import resume from '../../assets/resume.pdf';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -32,6 +32,9 @@ const Header = () => {
             >
               Portfolio
             </NavLink>
+          </li>
+          <li className='list-item'>
+            <a href = {resume} target = "_blank" rel='noreferrer' className='navlink'>Resume</a>
           </li>
           <li className='list-item'>
             <NavLink
