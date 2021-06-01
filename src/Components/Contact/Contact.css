@@ -13,11 +13,17 @@
   margin-bottom: 0.5rem;
 }
 
+.contact-text {
+  color: #727272;
+  font-weight: 600;
+  user-select: none;
+}
+
 .linkedin,
 .email {
   text-decoration: none;
   color: #727272;
-  border-bottom: 2px solid #F1F1F1;
+  border-bottom: 1.5px solid #F1F1F1;
 }
 
 .icon-container {

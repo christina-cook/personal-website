@@ -7,6 +7,20 @@ const Contact = () => {
   return (
     <section className='contact'>
       <h2 className='contact-title'>Let's Connect</h2>
+      <p className='contact-text'>
+        Interested in working together? Send me an <a
+          href='mailto:cmc.cook7@gmail.com'
+          className='email'
+        >email
+        </a> or connect with me on <a
+          href='https://www.linkedin.com/in/cookcmc/'
+          target = "_blank"
+          rel='noreferrer'
+          className='linkedin'
+        >LinkedIn
+        </a>
+        !
+      </p>
       <div className='icon-container'>
         <a href='mailto:cmc.cook7@gmail.com'>
           <img src={email} alt ='email' className='icon'/>
