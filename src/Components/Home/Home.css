@@ -56,3 +56,71 @@
   cursor: pointer;
   color: #ACCBC5;
 }
+
+@media screen and (max-width: 800px) {
+  .home-title {
+    font-size: 4.5rem;
+  }
+
+  .arc {
+    height: 100px;
+    left: 50px;
+    margin-bottom: 1.5rem;
+  }
+
+  .welcome {
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .home-title {
+    font-size: 2.25rem;
+  }
+
+  .arc {
+    height: 50px;
+    left: 25px;
+    margin-bottom: 1rem;
+  }
+
+  .welcome {
+    padding-right: 1.5rem;
+  }
+
+  .intro {
+    font-size: 0.5rem;
+  }
+
+  .work-button {
+    padding: 0.25rem 1rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home-title {
+    font-size: 1.5rem;
+  }
+
+  .arc {
+    height: 35px;
+    left: 18px;
+    margin-bottom: 0.75rem;
+  }
+
+  .welcome {
+    padding-right: 1.5rem;
+  }
+
+  .intro {
+    font-size: 0.4rem;
+  }
+
+  .work-button {
+    padding: 0.2rem 0.75rem;
+    font-size: 0.4rem;
+    margin-top: 0.5rem;
+  }
+}
