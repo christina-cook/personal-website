@@ -8,7 +8,6 @@ const Portfolio = () => {
 
   useEffect(() => {
     setProjects(projectsData)
-    console.log('projectsData', projectsData)
   }, [])
 
   const projectsToDisplay = () => {
