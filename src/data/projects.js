@@ -50,6 +50,22 @@ const projectsData = [
     description: 'Photo app focused on user authentication where users can log in using their existing Google, Facebook, or GitHub accounts.',
     app: 'https://hue-pic-it-ui.web.app/',
     repo: 'https://github.com/christina-cook/hue-pic-it'
+  },
+  {
+    id: 4,
+    title: 'FitLit',
+    image: 'https://i.imgur.com/Yr4HNT0.png',
+    stack: [
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'Chart.js',
+      'Mocha',
+      'Chai'
+    ],
+    description: 'Fitness tracking app that breaks down a user\'s hydration, sleep patterns, and activity levels.',
+    app: 'https://deadbelly.github.io/FitLit/src/index.html',
+    repo: 'https://github.com/christina-cook/FitLit'
   }
 ]
 
