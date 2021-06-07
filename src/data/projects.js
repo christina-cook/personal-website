@@ -82,6 +82,19 @@ const projectsData = [
     description: 'Fitness tracking app that breaks down a user\'s hydration, sleep patterns, and activity levels.',
     app: 'https://deadbelly.github.io/FitLit/src/index.html',
     repo: 'https://github.com/christina-cook/FitLit'
+  },
+  {
+    id: 6,
+    title: 'Tic Tac Toe',
+    image: 'https://i.imgur.com/Lhca5pG.png',
+    stack: [
+      'Vanilla JavaScript',
+      'HTML',
+      'CSS'
+    ],
+    description: 'Tic tac toe game built with Vanilla JavaScript that utilizes local storage to persist user data on page refresh.',
+    app: 'https://christina-cook.github.io/tic-tac-toe/',
+    repo: 'https://github.com/christina-cook/tic-tac-toe'
   }
 ]
 
