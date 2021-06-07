@@ -53,6 +53,22 @@ const projectsData = [
   },
   {
     id: 4,
+    title: 'Jet Set Go',
+    image: 'https://i.imgur.com/czOoXlQ.png',
+    stack: [
+      'JavaScript',
+      'HTML',
+      'Sass/SCSS',
+      'Mocha',
+      'Chai',
+      'REST API'
+    ],
+    description: 'Travel tracking app where users can login to book a new trip and view details for their current, upcoming, and past trips.',
+    app: 'https://christina-cook.github.io/travel-tracker/',
+    repo: 'https://github.com/christina-cook/travel-tracker'
+  },
+  {
+    id: 5,
     title: 'FitLit',
     image: 'https://i.imgur.com/Yr4HNT0.png',
     stack: [
